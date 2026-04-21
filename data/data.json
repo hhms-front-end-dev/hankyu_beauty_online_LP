@@ -1,0 +1,112 @@
+[
+  {
+    "topic_id": "1",
+    "brand": "ルナソル",
+    "product_name": "デューイリフレクトリップオイル",
+    "price": "3,850",
+    "points": "700",
+    "url": "https://web.hh-online.jp/hankyu-beauty/goods/index.html?ggcd=B2620100",
+    "img_folder": "260408",
+    "img_name": "point20_item-01-02.png",
+    "attention": ""
+  },
+  {
+    "topic_id": "1",
+    "brand": "ルナソル",
+    "product_name": "デューイリフレクトリップオイル(EX01)",
+    "price": "3,850",
+    "points": "700",
+    "url": "https://web.hh-online.jp/hankyu-beauty/goods/index.html?ggcd=B2620101",
+    "img_folder": "260408",
+    "img_name": "point20_item-01-03.png",
+    "attention": ""
+  },
+  {
+    "topic_id": "1",
+    "brand": "THREE",
+    "product_name": "アドバンスドエシリアルスムースオペレーター ルースパウダー(X04)",
+    "price": "6,050",
+    "points": "1,100",
+    "url": "https://web.hh-online.jp/hankyu-beauty/goods/index.html?ggcd=B2630001",
+    "img_folder": "260408",
+    "img_name": "point20_item-01-05.png",
+    "attention": "4月7日(火)まで先行予約販売<br>4月10日(金)10:00～販売開始"
+  },
+  {
+    "topic_id": "1",
+    "brand": "ゲラン",
+    "product_name": "パリュール ゴールド スキン メッシュ クッション",
+    "price": "11,660",
+    "points": "2,120",
+    "url": "https://web.hh-online.jp/hankyu-beauty/goods/index.html?ggcd=B25D0256",
+    "img_folder": "260408",
+    "img_name": "point20_item-01-06.png",
+    "attention": ""
+  },
+  {
+    "topic_id": "1",
+    "brand": "シスレー",
+    "product_name": "カラー クラウド",
+    "price": "9,020",
+    "points": "1,640",
+    "url": "https://web.hh-online.jp/hankyu-beauty/goods/index.html?ggcd=B2630072",
+    "img_folder": "260408",
+    "img_name": "point20_item-01-07.png",
+    "attention": ""
+  },
+  {
+    "topic_id": "2",
+    "brand": "エスト",
+    "product_name": "エスト ＵＶプロテクション ミルク[販売名：エスト ＵＶミルク][医薬部外品]",
+    "price": "6,930",
+    "points": "1,260",
+    "url": "https://web.hh-online.jp/hankyu-beauty/goods/index.html?ggcd=B25D0222",
+    "img_folder": "260408",
+    "img_name": "point20_item-02-05.png",
+    "attention": ""
+  },
+  {
+    "topic_id": "2",
+    "brand": "エスト",
+    "product_name": "エスト ＵＶプロテクション クリーム[販売名：エスト ＵＶクリーム][医薬部外品]",
+    "price": "6,930",
+    "points": "1,260",
+    "url": "https://web.hh-online.jp/hankyu-beauty/goods/index.html?ggcd=B25D0223",
+    "img_folder": "260408",
+    "img_name": "point20_item-02-06.png",
+    "attention": ""
+  },
+  {
+    "topic_id": "2",
+    "brand": "エレクトロン",
+    "product_name": "タイトニングミストブライト",
+    "price": "5,940",
+    "points": "1,080",
+    "url": "https://web.hh-online.jp/hankyu-beauty/goods/index.html?ggcd=B2430426",
+    "img_folder": "260408",
+    "img_name": "point20_item-02-07.png",
+    "attention": ""
+  },
+  {
+    "topic_id": "2",
+    "brand": "THREE",
+    "product_name": "バランシング バリア ブライトニング セラム[医薬部外品]",
+    "price": "12,100",
+    "points": "2,200",
+    "url": "https://web.hh-online.jp/hankyu-beauty/goods/index.html?ggcd=B2610006",
+    "img_folder": "260408",
+    "img_name": "point20_item-02-08.png",
+    "attention": ""
+  },
+  {
+    "topic_id": "2",
+    "brand": "ゲラン",
+    "product_name": "アベイユ ロイヤル UV スキン ディフェンス N",
+    "price": "11,880",
+    "points": "2,160",
+    "url": "https://web.hh-online.jp/hankyu-beauty/goods/index.html?ggcd=B2320091",
+    "img_folder": "260408",
+    "img_name": "point20_item-02-09.png",
+    "attention": ""
+  }
+]

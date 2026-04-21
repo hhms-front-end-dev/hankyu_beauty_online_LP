@@ -223,8 +223,19 @@ parts
 	padding-left: 16px;
 	color: var(--color-season-theme);
 }
-@media screen and (min-width: 750px) {
-
+@media screen and (max-width: 750px) {
+	.topic__wrap{
+		height: 8.533vw;
+	}
+	.topic__number{
+		width: 15.516%;
+		height: 8.533vw;
+		padding-left: 2.133vw;
+	}
+	.topic__title{
+		height: 8.533vw;
+		padding-left: 4.267vw;
+	}
 }
 .btn a{
 	display: flex;
@@ -6215,4 +6226,51 @@ footer p:last-child{
 	.yokoku .next__text-02{
 		padding-top: 1.6vw;
 	}
+}
+
+
+.l-point20-check{
+	background-image: none;
+	background-color: #FFF2F8;
+}
+.l-point20-check .ac__inner {
+	width: 90%;
+	margin: 40px auto;
+	box-shadow: none;
+	background-color: transparent;
+}
+.l-point20-check .l-point20{
+	margin: 0 auto;
+	background-color: transparent;
+}
+.l-point20-check .l-point20-trend {
+    padding: 0;
+}
+.l-point20-check .l-point20-trend::before {
+	display: none;
+}
+.l-point20-check .topic__wrap{
+	width: 100%;
+	max-width: 375px;
+}
+.l-point20-check .swiper-wrapper{
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: flex-start;
+	gap: 24px;
+}
+.l-point20-check .point20-trend__item-block .swiper-slide {
+    width: 128px;
+}
+
+
+
+@media screen and (max-width: 750px) {
+	.l-point20-check .topic__wrap{
+		width: 100%;
+		max-width: none;
+	}
+    .l-point20-check .point20-trend__item-block .swiper-slide {
+        width: 37.895%;
+    }
 }
