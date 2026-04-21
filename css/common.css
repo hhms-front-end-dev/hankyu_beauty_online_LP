@@ -1,0 +1,95 @@
+@charset "shift_jis";
+/*****************************************************************************
+ layout
+*****************************************************************************/
+body {
+	word-break:break-all; /* ��ɍs���ɉ��s */
+	word-wrap:break-word; /* ���p�p�����܂�Ԃ����� */
+	text-align:justify; /*�e�L�X�g�𗼒[����FF */
+}
+
+header {
+	background:#000;
+	border-bottom:1px solid #FFF;
+	-webkit-background-size:4px 4px;
+	padding:6px 10px 6px 10px;
+	height:30px;
+	overflow: hidden;
+}
+
+header h1 {
+	float:left;
+	margin:0;
+	padding:3px 6px 0 0 !important;
+}
+
+header h2 {
+	padding:14px 0 1px 0px !important;
+}
+header ul {
+	float:right;
+}
+header li {
+	float:left;
+}
+
+
+#main {
+}
+#topcontainer {
+  padding: 0 10px 40px 10px;
+}
+#container {
+}
+
+footer {
+	border-top:1px solid #FFF;
+	background-color:#000;
+	padding:5px 10px;
+	font-size:9px;
+	text-align:center;
+	color:#FFF;
+
+}
+/*****************************************************************************
+ Parts style
+*****************************************************************************/
+body {
+  /* font: 12px/1.3 "�q���M�m�p�S Pro W3 san" sans-serif; */
+  /*-webkit-text-size-adjust: none; fontsize�Œ� */
+  color: #333333;
+  background-size: 50px;
+}
+a {
+  color: #333333;
+  text-decoration: none;
+}
+
+img {
+	vertical-align:top;
+}
+
+.clearfix:after {
+	clear: both;
+	height: 0;
+	visibility: hidden;
+	display: block;
+	content: '[.]';
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix {
+	height: 1%;
+}
+
+.clearfix {
+	display: block;
+}
+
+/* End hide from IE-mac */
+
+
