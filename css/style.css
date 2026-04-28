@@ -267,6 +267,16 @@ parts
 .btn-black a::before{
 	background-image: url(../img/seasonal/icon_arrow-right-white.png);
 }
+@media screen and (max-width: 750px) {
+	.btn a{
+		padding: 2.133vw 0;
+	}
+	.btn a::before{
+		right: 2.133vw;
+		width: 4.267vw;
+		height: 4.267vw;
+	}
+}
 
 /* -----------------------------------------
 original
@@ -833,6 +843,7 @@ original
 
 .main__wrap{
 	position: relative;
+	overflow: hidden;
 }
 .mainvisual{
 	width: 100%;
@@ -844,41 +855,41 @@ original
 	opacity: 0;
 }
 .mainvisual__item-01{
-	top: 192px;
-    left: 0;
-	width: 60.5px;
+	top: 172px;
+    left: -12px;
+	width: 89px;
 	animation: fadeInUp 0.6s ease-out forwards, fluffy 1.5s ease-in-out infinite alternate;
 	animation-delay: 0.3s, 0.9s;
 	animation-duration: 0.6s, 1.7s;
 }
 .mainvisual__item-02 {
-	top: 156px;
-	left: 21px;
-	width: 92.5px;
+	top: 158px;
+    left: 46px;
+	width: 66px;
 	animation: fadeInUp 0.6s ease-out forwards, fluffy 1.5s ease-in-out infinite alternate;
 	animation-delay: 0.6s, 1.2s;
 	animation-duration: 0.6s, 1.4s;
 }
 .mainvisual__item-03 {
-	top: 158px;
-	left: 101px;
-	width: 79px;
+	top: 162px;
+    left: 96px;
+	width: 92.5px;
 	animation: fadeInUp 0.6s ease-out forwards, fluffy 1.5s ease-in-out infinite alternate;
 	animation-delay: 0.9s, 1.5s;
 	animation-duration: 0.6s, 1.5s;
 }
 .mainvisual__item-04 {
-	top: 164px;
-	left: 157px;
+	top: 150px;
+    left: 165px;
 	width: 66.5px;
 	animation: fadeInUp 0.6s ease-out forwards, fluffy 1.5s ease-in-out infinite alternate;
 	animation-delay: 1.2s, 1.8s;
 	animation-duration: 0.6s, 2s;
 }
 .mainvisual__item-05 {
-	top: 168px;
-	left: 210px;
-	width: 82px;
+	top: 156px;
+    left: 204px;
+	width: 68.5px;
 	animation: fadeInUp 0.6s ease-out forwards, fluffy 1.5s ease-in-out infinite alternate;
 	animation-delay: 1.5s, 2.1s;
 	animation-duration: 0.6s, 1.6s;
@@ -903,29 +914,29 @@ original
 }
 @media screen and (max-width: 750px){
 	.mainvisual__item-01{
-		top: 51.064vw;
-		left: 0;
-		width: 16.09vw;
+		top: 45.867vw;
+		left: -3.2vw;
+		width: 23.733vw;
 	}
-	.mainvisual__item-02{
-		top: 41.489vw;
-		left: 5.585vw;
-		width: 24.601vw;
+	.mainvisual__item-02 {
+		top: 42.133vw;
+		left: 12.267vw;
+		width: 17.6vw;
 	}
-	.mainvisual__item-03{
-		top: 42.021vw;
-		left: 26.862vw;
-		width: 21.011vw;
+	.mainvisual__item-03 {
+		top: 43.2vw;
+		left: 25.6vw;
+		width: 24.667vw;
 	}
-	.mainvisual__item-04{
-		top: 43.617vw;
-		left: 41.755vw;
-		width: 17.686vw;
+	.mainvisual__item-04 {
+		top: 40vw;
+		left: 44vw;
+		width: 17.733vw;
 	}
-	.mainvisual__item-05{
-		top: 44.681vw;
-		left: 55.851vw;
-		width: 21.809vw;
+	.mainvisual__item-05 {
+		top: 41.6vw;
+		left: 54.4vw;
+		width: 18.267vw;
 	}
 }
 
@@ -1078,7 +1089,7 @@ original
 	display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 16px auto 0;
+    margin: 4px auto 0;
 	row-gap: 4px;
 }
 .menu-btn li{
@@ -1165,7 +1176,7 @@ original
 		display: flex;
 		justify-content: center;
 		flex-wrap: wrap;
-		margin: 4.255vw auto 0;
+		margin: 1.0667vw auto 0;
 		row-gap: 1.064vw;
 	}
 	.menu-btn li{
@@ -2321,6 +2332,7 @@ original
 	font-size: 11px;
 	font-weight: var(--font-weight-regular);
 	line-height: var(--lh-150);
+	text-align: left;
 }
 .point30__item-tax{
 	padding-top: 2px;
@@ -2505,12 +2517,17 @@ original
 	text-align: center;
 }
 .point30-skin__img{
-	width: 212px;
+	width: 312px;
+	margin: 16px auto 0;
+}
+.point30-skin__img-02{
+	width: 312px;
 	margin: 16px auto 0;
 }
 .point30-skin__text{
 	width: 312px;
 	margin: 16px auto 0;
+	text-align: center;
 }
 .point30-skin__text .text-mini{
 	font-size: 8px;
@@ -2568,6 +2585,43 @@ original
 .point30-skin__step-wrap-last::after{
 	display: none;
 }
+.point30-skin__benefit{
+	position: relative;
+	width: 312px;
+	margin: 54px auto 0;
+	padding-bottom: 20px;
+}
+.point30-skin__benefit::before{
+	display: block;
+	content: "";
+	background-image: url(../img/seasonal/section_line.png);
+	background-size: cover;
+	background-position: center top;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 4.5px;
+}
+.point30-skin__benefit-text{
+	margin-top: 16px;
+	text-align: center;
+}
+.point30-skin__benefit-block{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin: 16px auto 0;
+}
+.point30-skin__benefit-img{
+	width: 140px;
+}
+.point30-skin__benefit-inner{
+	width: 156px;
+}
+.point30-skin__benefit-inner .point30-skin__benefit-attention{
+	margin-top: 2px;
+}
 .point30-skin__list{
 	width: 312px;
 	margin: 30px auto 0;
@@ -2583,6 +2637,67 @@ original
 .l-point30-skin .accordion-container::after {
 	background: linear-gradient(transparent, #fff);
 }
+
+.l-point30-skin .point30-skin__recommend-wrap{
+	margin-top: 32px;
+}
+.l-point30-skin .point30-skin__recommend-block{
+	margin-top: 16px;
+}
+.l-point30-skin .topic__number {
+    width: 25.47%;
+}
+.l-point30-skin .topic__title {
+    width: 69.64%;
+}
+.l-point30-skin .topic__title span{
+    display: block;
+	margin-top: -4px;
+    font-size: 10px;
+}
+.l-point30-skin .point30-skin__recommend-icon{
+	width: 128px;
+	margin: 16px auto 0;
+}
+.l-point30-skin .point30-skin__recommend-text{
+	margin-top: 16px;
+	font-size: 14px;
+	text-align: center;
+}
+.l-point30-skin .point30__item-one{
+	width: 214px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.l-point30-skin .point30__item-one .point30__item-img{
+	width: 128px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.l-point30-skin .point30__item-one .point30__item-bai img{
+	margin-left: auto;
+	margin-right: auto;
+}
+.l-point30-skin .point30__item-one .point30__btn{
+	width: 128px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.point30-skin__recommend-detail{
+	width: 312px;
+	margin: 16px auto 0;
+	font-size: 12px;
+}
+.point30-skin__recommend-text-02{
+	width: 312px;
+	margin: 16px auto 0;
+	font-size: 12px;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+
 @media screen and (max-width: 750px){
 	.l-point30-skin{
 		position: relative;
@@ -2623,11 +2738,20 @@ original
 		text-align: center;
 	}
 	.point30-skin__img{
-		width: 56.383vw;
-		margin: 4.255vw auto 0;
+		width: 83.2vw;
+		margin: 4.2667vw auto 0;
+	}
+	.point30-skin__img-02{
+		width: 83.2vw;
+		margin: 4.2667vw auto 0;
 	}
 	.point30-skin__text{
-		width: 82.979vw;
+		width: 83.2vw;
+		margin: 4.2667vw auto 0;
+		text-align: center;
+	}
+	.point30-skin__img{
+		width: 56.383vw;
 		margin: 4.255vw auto 0;
 	}
 	.point30-skin__text .text-mini{
@@ -2673,9 +2797,9 @@ original
 		transform: translateX(-50%);
 		width: 0;
 		height: 0;
-		border-left: 24px solid transparent;
-		border-right: 24px solid transparent;
-		border-top: 24px solid var(--color-season-base1);
+		border-left: 6.4vw solid transparent;
+		border-right: 6.4vw solid transparent;
+		border-top: 6.4vw solid var(--color-season-base1);
 	}
 	.point30-skin__step-wrap .point30__item-wrap{
 		margin-top: 4.255vw;
@@ -2685,6 +2809,43 @@ original
 	}
 	.point30-skin__step-wrap-last::after{
 		display: none;
+	}
+	.point30-skin__benefit {
+		position: relative;
+		width: 83.2vw;
+		margin: 14.4vw auto 0;
+		padding-bottom: 5.333vw;
+	}
+	.point30-skin__benefit::before {
+		display: block;
+		content: "";
+		background-image: url(../img/seasonal/section_line.png);
+		background-size: cover;
+		background-position: center top;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 1.2vw;
+	}
+	.point30-skin__benefit-text {
+		margin-top: 4.267vw;
+		text-align: center;
+	}
+	.point30-skin__benefit-block {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		margin: 4.2667vw auto 0;
+	}
+	.point30-skin__benefit-img {
+		width: 37.333vw;
+	}
+	.point30-skin__benefit-inner {
+		width: 41.6vw;
+	}
+	.point30-skin__benefit-inner .point30-skin__benefit-attention {
+		margin-top: 0.533vw;
 	}
 	.point30-skin__list{
 		width: 82.979vw;
@@ -2700,6 +2861,46 @@ original
 	}
 	.l-point30-skin .accordion-container::after {
 		background: linear-gradient(transparent, #fff);
+	}
+	.l-point30-skin .point30-skin__recommend-wrap{
+		margin-top: 8.533vw;
+	}
+	.l-point30-skin .point30-skin__recommend-block{
+		margin-top: 4.267vw;
+	}
+	.l-point30-skin .topic__title span{
+		display: block;
+		margin-top: -1.067vw;
+		font-size: 2.667vw;
+	}
+	.l-point30-skin .point30-skin__recommend-icon{
+		width: 34.133vw;
+		margin: 4.2667vw auto 0;
+	}
+	.l-point30-skin .point30-skin__recommend-text{
+		margin-top: 4.2667vw;
+		font-size: 3.733vw;
+	}
+	.l-point30-skin .point30__item-one{
+		width: 57.067vw;
+	}
+	.l-point30-skin .point30__item-one .point30__item-img{
+		width: 34.133vw;
+	}
+	.l-point30-skin .point30__item-one .point30__btn{
+		width: 34.133vw;
+	}
+	.point30-skin__recommend-detail{
+		width: 83.2vw;
+		margin: 4.2667vw auto 0;
+		font-size: 3.2vw;
+	}
+	.point30-skin__recommend-text-02{
+		width: 83.2vw;
+		margin: 4.2667vw auto 0;
+		font-size: 3.2vw;
+		padding-left: 1em;
+		text-indent: -1em;
 	}
 }
 
@@ -2769,7 +2970,7 @@ original
 }
 .point30-fragrance__lead{
 	margin-top: 8px;
-	text-align: center;
+	text-align: left;
 }
 .point30-fragrance__text{
 	margin-top: 8px;
@@ -2831,6 +3032,10 @@ original
 }
 .point30-fragrance__benefit-inner{
 	width: 156px;
+}
+.point30-fragrance__benefit-inner .text-xs-reg{
+	padding-left: 0.5em;
+	text-indent: -0.5em;
 }
 .point30-fragrance__benefit-inner .point30-fragrance__benefit-attention{
 	margin-top: 2px;
@@ -2913,7 +3118,6 @@ original
 	}
 	.point30-fragrance__lead {
 		margin-top: 2.133vw;
-		text-align: center;
 	}
 	.point30-fragrance__text {
 		margin-top: 2.133vw;
@@ -3049,6 +3253,7 @@ original
 	padding: 32px 0 16px;
 	background-color: var(--color-season-theme);
 	color: var(--color-white);
+	border-top: 1px solid var(--color-black);
 	text-align: center;
 }
 .present__title span{

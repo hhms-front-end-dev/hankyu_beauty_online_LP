@@ -17,6 +17,9 @@ async function initProductSliders() {
                 // フォルダ名とファイル名を組み合わせてパスを作る
                 const fullImagePath = `./img/${item.img_folder}/${item.img_name}`;
 
+                // 「〜」の有無を判定（is_kara列が "TRUE" の場合のみ "～" を入れる）
+                const kara = (item.is_kara === "TRUE") ? "～" : "";
+
                 // 注意書き(attention)がある場合のみ表示
                 const attentionTag = item.attention 
                     ? `<p class="point20-trend__item-attention">${item.attention}</p>` 
@@ -28,9 +31,14 @@ async function initProductSliders() {
                             <p class="point20-trend__item-img"><img src="${fullImagePath}" alt="${item.product_name}"></p>
                             <p class="point20-trend__item-title">${item.brand}</p>
                             <p class="point20-trend__item-spec">${item.product_name}</p>
-                            <p class="point20-trend__item-tax">¥<span class="point20-trend__item-number">${item.price}</span> <span class="point20-trend__item-tax-mini">(税込)</span></p>
+                            <p class="point20-trend__item-tax">
+                                ¥<span class="point20-trend__item-number">${item.price}</span> 
+                                <span class="point20-trend__item-tax-mini">(税込)${kara}</span>
+                            </p>
                             <p class="point20-trend__item-bai"><img src="./img/seasonal/icon_20bai.png" alt="ネットポイント20倍"></p>
-                            <p class="point20-trend__item-point en">${item.points}<span class="point20-trend__item-point-text ja">ポイント(<span class="en">20</span>倍)</span></p>
+                            <p class="point20-trend__item-point en">
+                                ${item.points}<span class="point20-trend__item-point-text ja">ポイント(<span class="en">20</span>倍)${kara}</span>
+                            </p>
                             ${attentionTag}
                         </a>
                     </div>
