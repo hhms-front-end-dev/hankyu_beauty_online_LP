@@ -6051,6 +6051,11 @@ footer p:last-child{
 .yokoku .section__block:first-of-type::before{
 	display: none;
 }
+.yokoku .l-spoint{
+	padding: 0;
+}
+
+
 .yokoku #sec-01 .point__text-02{
 	padding-top: 2px;
 	line-height: 1.3;
