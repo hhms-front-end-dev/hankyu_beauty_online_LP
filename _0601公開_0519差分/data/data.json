@@ -562,5 +562,29 @@
     "img_folder": "260601",
     "img_name": "point20_item-04-08.png",
     "attention": ""
+  },
+  {
+    "topic_id": "4",
+    "brand": "エムアイエムシー",
+    "product_name": "ワン・セコンド マジック",
+    "price": "3,960",
+    "points": "720",
+    "is_kara": "",
+    "url": "https://web.hh-online.jp/hankyu-beauty/goods/index.html?ggcd=B2530460",
+    "img_folder": "260601",
+    "img_name": "point20_item-04-09.png",
+    "attention": ""
+  },
+  {
+    "topic_id": "4",
+    "brand": "リンクオリジナルメーカーズ",
+    "product_name": "HAIR OIL -CARE-",
+    "price": "4,400",
+    "points": "800",
+    "is_kara": "",
+    "url": "https://web.hh-online.jp/hankyu-beauty/goods/index.html?ggcd=B2630079",
+    "img_folder": "260601",
+    "img_name": "point20_item-04-13.png",
+    "attention": ""
   }
 ]
