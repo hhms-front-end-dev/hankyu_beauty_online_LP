@@ -2297,6 +2297,13 @@ original
 	width: 100%;
 	margin: 0 auto;
 }
+.point-staff__attention{
+	width: 256px;
+	margin: 24px auto 0;
+	padding-left: 1em;
+	text-indent: -1em;
+	line-height: 1.5;
+}
 .point-staff__item-block{
 	margin-top: 24px;
 }
@@ -2388,6 +2395,10 @@ original
 @media screen and (max-width: 750px){
 	.l-point-staff{
 		padding: 11.2vw 0 10.667vw;
+	}
+	.point-staff__attention{
+		width: 68.267vw;
+		margin: 6.4vw auto 0;
 	}
 	.point-staff__item-block{
 		margin-top: 6.4vw;
@@ -2667,10 +2678,10 @@ original
 .point30-skin__contents-block{
 	position: relative;
 	width: 83.2%;
-	margin: 40px auto 0;
-	padding-top: 20px;
+	margin: 0 auto;
+	padding-top: 32px;
 }
-.point30-skin__contents-block::before{
+/* .point30-skin__contents-block::before{
 	content: "";
     background-image: url(../img/seasonal/point30-skin_line.png);
     background-size: cover;
@@ -2680,7 +2691,7 @@ original
     left: 0;
     width: 100%;
     height: 4.5px;
-}
+} */
 .point30-skin__contents-block-02{
 	margin-top: 24px;
 	padding-top: 0;
@@ -3182,12 +3193,12 @@ original
 	}
 	.point30-skin__contents-block{
 		width: 83.2%;
-		margin: 10.6667vw auto 0;
-		padding-top: 5.333vw;
+		margin: 0 auto;
+		padding-top: 8.5334vw;
 	}
-	.point30-skin__contents-block::before{
+	/* .point30-skin__contents-block::before{
 		height: 1.2vw;
-	}
+	} */
 	.point30-skin__contents-block-02{
 		margin-top: 6.4vw;
 		padding-top: 0;

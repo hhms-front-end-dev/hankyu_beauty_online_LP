@@ -325,6 +325,18 @@
   },
   {
     "topic_id": "3",
+    "brand": "ヤーマン",
+    "product_name": "ヴェーダシャインプロ〈保証書付き〉",
+    "price": "34,100",
+    "points": "6,200",
+    "is_kara": "",
+    "url": "https://web.hh-online.jp/hankyu-beauty/goods/index.html?ggcd=B2550290",
+    "img_folder": "260608",
+    "img_name": "point20_item-03-07.png",
+    "attention": ""
+  },
+  {
+    "topic_id": "3",
     "brand": "RMK",
     "product_name": "シルクフィット フェイスパウダー",
     "price": "5,500",
@@ -417,18 +429,6 @@
     "url": "https://web.hh-online.jp/hankyu-beauty/goods/index.html?ggcd=B23D0041",
     "img_folder": "260608",
     "img_name": "point20_item-04-14.png",
-    "attention": ""
-  },
-  {
-    "topic_id": "4",
-    "brand": "ヤーマン",
-    "product_name": "ヴェーダシャインプロ〈保証書付き〉",
-    "price": "34,100",
-    "points": "6,200",
-    "is_kara": "",
-    "url": "https://web.hh-online.jp/hankyu-beauty/goods/index.html?ggcd=B2550290",
-    "img_folder": "260608",
-    "img_name": "point20_item-03-07.png",
     "attention": ""
   },
   {
